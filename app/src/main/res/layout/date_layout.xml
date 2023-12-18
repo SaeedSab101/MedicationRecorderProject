@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medication Taken On:"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="300dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="300dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInfo"/>
+
+    <TextView
+        android:id="@+id/textWeekDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="@+id/textDay"
+        app:layout_constraintTop_toBottomOf="@+id/textDay"/>
+
+    <TextView
+        android:id="@+id/textMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="@+id/textDay"
+        app:layout_constraintTop_toBottomOf="@+id/textWeekDay"/>
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="@+id/textWeekDay"
+        app:layout_constraintTop_toBottomOf="@id/textMonth"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SA_MedicationRecorder_Project1</string>
+    <string name="first">View Records</string>
+    <string name="second">Record Time</string>
+    <string name="third">App Details</string>
+    <string name="main">Return to Main Menu</string>
+    <string name="removeLast">Remove the latest Record</string>
+    <string name="removeAll">Remove All Records</string>
+    <string name="day">Day In The Week:</string>
+    <string name="time">Time:</string>
+    <string name="dayNum">Day:</string>
+    <string name="month">Month:</string>
+    <string name="Welcome">Welcome To Saeed`s Medication Tracker App!</string>
+    <string name="Enter">To Get Started, Please Enter The Following Information:</string>
+    <string name="Guide">The Buttons Below Do As Followed:</string>
+    <string name="Button1">View Records - View Saved Times Medications Were Taken At</string>
+    <string name="Button2">Record Time - Saves Your Input And Stores It</string>
+    <string name="Button3">App Details - View Details About The Application</string>
+    <string name="developed">Developed By: Saeed Alsabawi</string>
+    <string name="app_desc">In this app you can store the day in the week, day number, time, and month of when your medication was taken. You can store them in any way you like whether it be with words or numbers</string>
+
+</resources>
